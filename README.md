@@ -17,11 +17,13 @@ Placement Management System is a Django-based web application developed to manag
 
 
 ## Technologies Used
-- Python
-- Django
-- SQLite
-- HTML
-- CSS
+- Python  
+- Django  
+- SQLite  
+- HTML  
+- CSS  
+
+---
 
 ## API Endpoints
 - GET /students/ → Get all students  
