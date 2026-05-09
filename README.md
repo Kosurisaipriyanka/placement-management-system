@@ -1,14 +1,20 @@
 # Placement Management System
 
-A Django-based backend application with REST APIs to manage student placement data.
+## Overview
+Placement Management System is a Django-based web application developed to manage student placement information efficiently. The project provides REST APIs for handling student records and placement-related operations using Django and SQLite.
+
+---
 
 ## Features
-- Admin login using Django admin panel
-- Add, edit, and delete student records (CRUD operations)
-- Display student details on a web page
-- Developed REST APIs for managing student and placement data
-- Uses Django MVT architecture
-- Database handled using Django ORM (SQLite)
+- Admin authentication using Django Admin Panel  
+- Add, update, view, and delete student records  
+- REST APIs for student and placement management  
+- Display student details through web pages  
+- Organized using Django MVT architecture  
+- Database management using Django ORM and SQLite  
+
+---
+
 
 ## Technologies Used
 - Python
