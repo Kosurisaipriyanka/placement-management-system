@@ -15,7 +15,6 @@ Placement Management System is a Django-based web application developed to manag
 
 ---
 
-
 ## Technologies Used
 - Python  
 - Django  
@@ -25,17 +24,33 @@ Placement Management System is a Django-based web application developed to manag
 
 ---
 
+## Functionalities
+- Student record management  
+- Placement data handling  
+- CRUD operations using REST APIs  
+- Admin dashboard for monitoring records  
+
+---
+
 ## API Endpoints
-- GET /students/ → Get all students  
-- POST /students/ → Add new student  
-- PUT /students/{id}/ → Update student  
-- DELETE /students/{id}/ → Delete student  
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/students/` | Retrieve all students |
+| POST | `/students/` | Add a new student |
+| PUT | `/students/{id}/` | Update student details |
+| DELETE | `/students/{id}/` | Delete student record |
+
+---
 
 ## Project Structure
-- `placement_project/` – Django project settings  
-- `placements/` – App containing models, views, URLs, templates, and static files  
 
-## How to Run the Project
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/kosurisaipriyanka/placement-management-system.git
+```text
+placement-management-system/
+│── placement_project/      # Django project settings
+│── placements/             # Main application
+│── templates/              # HTML templates
+│── static/                 # CSS and static files
+│── db.sqlite3              # Database
+│── manage.py
+│── README.md
